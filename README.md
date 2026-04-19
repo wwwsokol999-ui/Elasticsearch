@@ -25,7 +25,7 @@ GET /_cluster/health?pretty
 ```
 В результате в интерфейсе Kibana отобразился ответ от Elasticsearch с информацией о состоянии кластера.
 
-Скриншот
+![kibana](kibana.png)
 
 ___
 
@@ -44,8 +44,7 @@ ___
 
 Для проверки открыл Kibana, создал Data View nginx-logs* и в разделе Discover убедился, что логи Nginx отображаются в интерфейсе.
 
-Скриншот
-
+![logstash](logstash.png)
 ___
 
 ## Задание 4. Filebeat
@@ -58,7 +57,7 @@ ___
 
 После этого в Kibana открыл Discover, выбрал Data View filebeat-* и убедился, что логи Nginx успешно отображаются в интерфейсе.
 
-Скриншот
+![filebeat](filebeat.png)
 
 ___
 
