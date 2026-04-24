@@ -12,7 +12,7 @@ curl -X GET 'localhost:9200/_cluster/health?pretty'
 
 В результате убедился, что Elasticsearch работает корректно, а в выводе отображается измененное имя кластера.
 
-![rabbitmq-ui](rabbitmq-ui.png)
+![elasticsearch](elasticsearch.png)
 ___
 
 ##  Задание 2. Kibana
